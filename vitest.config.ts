@@ -1,6 +1,6 @@
-import { URL, fileURLToPath } from "node:url"
-import env from "vite-plugin-env-compatible"
-import { defineConfig } from "vitest/config"
+import { URL, fileURLToPath } from "node:url";
+import env from "vite-plugin-env-compatible";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
     test: {
@@ -15,4 +15,4 @@ export default defineConfig({
             "@": fileURLToPath(new URL("./", import.meta.url)),
         },
     },
-})
+});
