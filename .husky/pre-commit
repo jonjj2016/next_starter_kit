@@ -1,2 +1,2 @@
-npm format
-npm init
+yarn format
+yarn lint
